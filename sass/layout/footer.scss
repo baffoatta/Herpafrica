@@ -1,0 +1,68 @@
+/* *******************Beginning Footer************* */
+
+.footer1 {
+    color: $text-white;
+    margin-top: 3rem;
+}
+
+.footer-abt p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(199, 199, 199);
+}
+
+.abtimg h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: $secondary-blue;
+}
+
+.footer1 h3 {
+    font-size: 1.6rem;
+    color: $secondary-blue;
+}
+
+.footer1 a {
+    color: rgb(199, 199, 199);
+}
+
+.footer1 ul li {
+    font-size: 1rem;
+}
+
+.footer1 input {
+    background-color: $text-white;
+    border-radius: 2rem;
+    padding: 1rem 4rem;
+    border: 2px solid $brown-color;
+}
+
+.ct-socials img {
+    width: 1.5rem;
+}
+
+.footer1 button {
+    padding: 0.7rem 3rem;
+    background-color: $brown-color;
+    color: $text-white;
+    font-size: 1.4rem;
+    font-family: 'Roboto', 'sanserif';
+    border-radius: 3rem;
+}
+
+.copy-right {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    color: $text-white;
+    position: stickys;
+    margin-top: 2rem;
+}
+
+.copy-right a {
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    color: $text-white;
+    position: stickys;
+}

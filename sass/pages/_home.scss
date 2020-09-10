@@ -1,0 +1,39 @@
+// About section
+.about-section {
+    padding: 25rem 0;
+    margin-top: -50vh;
+}
+
+// Service Section style
+.services-section {
+    padding: 20rem 0;
+    background-image: linear-gradient( to right, rgba(5, 170, 230, 0.5), rgba(5, 171, 200, 0.466)), url(../img/slider-1.jpg);
+    background-size: cover;
+    transform: skewY(-7deg);
+    margin-top: -2vh;
+}
+
+// Project style
+.project-section-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(233, 230, 230, 0.87);
+    padding: 15rem 0 15rem 0;
+    margin-top: -40vh;
+}
+
+// footer style
+footer {
+    background-color: rgb(39, 39, 39);
+    padding-top: 70px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.footer-section-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}

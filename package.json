@@ -1,0 +1,21 @@
+{
+    "name": "herp",
+    "version": "1.0.0",
+    "description": "HERPol-Africa is a nongovernmental organization that looks into STEM",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "node-sass sass/main.scss css/style.css"
+    },
+    "keywords": [
+        "HERP0l-Africa",
+        "HERPA",
+        "HERPol"
+    ],
+    "author": "Happy Baffo",
+    "license": "ISC",
+    "devDependencies": {
+        "webpack": "^4.44.1",
+        "webpack-cli": "^3.3.12",
+        "node-sass": "4.14.1"
+    }
+}

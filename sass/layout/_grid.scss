@@ -1,0 +1,41 @@
+/******Beginning of About gird style*********/
+
+.about-rid {
+    max-width: 114rem;
+    margin: 3rem 9rem;
+    margin-bottom: 10rem;
+}
+
+.about-col-1 {
+    width: calc((100% - 6rem)/2);
+    float: left;
+    /* margin-left: 7rem; */
+}
+
+.about-col-1 :not(:last-child) {
+    margin-right: 6rem;
+}
+
+.about-col-1::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.about-col-1 p:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.com-col-1 {
+    margin-left: 3rem;
+}
+
+// End of about Grid Style
+// Project section style
+.section-projects {
+    padding: 35rem 0 60rem 0;
+    margin-top: -20vh;
+    background-color: rgba(233, 230, 230, 0.87);
+}
+
+// End of project style

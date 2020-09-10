@@ -1,0 +1,25 @@
+.header {
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    background-size: cover;
+    background-position: top;
+    animation: animate 100s linear infinite;
+}
+
+.header-bg {
+    height: 100vh;
+    background: rgba(5, 170, 230, 0.5);
+}
+
+// Beginning of About Header
+.about-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $text-white;
+}
+
+// End of About Header Style
